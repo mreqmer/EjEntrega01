@@ -1,6 +1,6 @@
 package ejentrega01;
 import java.util.Scanner;
-public class ejercicio4 {
+public class Ejercicio004 {
 
 	public static void main(String[] args) {
 		// Variables

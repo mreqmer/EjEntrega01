@@ -2,7 +2,7 @@ package ejentrega01;
 
 import java.util.Scanner;
 
-public class Ejercicio3 {
+public class Ejercicio003 {
 
 	public static void main(String[] args) {
 		// Variables
@@ -21,6 +21,7 @@ public class Ejercicio3 {
 		resta = numero2 - multiplo;
 		//Ternario para que si no es multiplo de numero2 realice la variable resta
 		String multiploCalc =(numero1%numero2==0) ? "Su número ya es múltiplo de " + numero2 : "Para que su número sea múltiplo de " + numero2 + "hay que sumar " + resta ;
+		//mensaje del calculo para el usuario
 		System.out.println(multiploCalc);
 		sc.close();
 		

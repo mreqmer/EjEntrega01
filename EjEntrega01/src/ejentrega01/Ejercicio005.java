@@ -2,7 +2,7 @@ package ejentrega01;
 
 import java.util.Scanner;
 
-public class ejercicio5 {
+public class Ejercicio005 {
 
 	public static void main(String[] args) {
 		// Variables
@@ -23,7 +23,7 @@ public class ejercicio5 {
 		y = a * (Math.pow(x, 2)) + (b * x) + c; 
 		//Devolver datos al usuario
 		System.out.println("y equivale a: " + y);
-		sc.close();
+		sc.close();//cerrar escaner
 	}
 
 }

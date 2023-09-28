@@ -1,6 +1,6 @@
 package ejentrega01;
 import java.util.Scanner;
-public class Ejercicio1 {
+public class Ejercicio001 {
 
 	public static void main(String[] args) {
 		// Variables
@@ -9,14 +9,12 @@ public class Ejercicio1 {
 		//Pedir numero al usuario
 		System.out.println("Introduzca un número decimal para redondearlo:");
 		numeroA = sc.nextFloat();//escaner del número
-		
 		//Conversion numero introducido por el usuario en entero  
-		int numeroAEnt = (int) numeroA; //numeroAEnt es el nuevo numeroA pero entero
-		
+		int numeroAEnt = (int) numeroA; //numeroAEnt es el numeroA pero entero
 		//Redondeo del numero 
 		int calculo =(numeroA - numeroAEnt >= .5) ? ++numeroAEnt  : numeroAEnt ;
 		//Devolver numero entero al usuario
-		System.out.println("Su numero redondeado es " + calculo);
+		System.out.println("Su numero redondeado es " + calculo + ".");
 		sc.close();
 		
 
