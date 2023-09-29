@@ -4,7 +4,7 @@ public class Ejercicio006 {
 
 	public static void main(String[] args) {
 		// Variable
-		Scanner sc = new Scanner(System.in); //Scanne
+		Scanner sc = new Scanner(System.in); //Scanner
 		int segUser; //segundos introducidos por el usuario
 		int seg , min, horas; //tiempo una vez ya convertido
 		//pedir tiempo en segundos	

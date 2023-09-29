@@ -7,14 +7,14 @@ public class Ejercicio009 {
 		Scanner sc = new Scanner(System.in);//escaner
 		int num1;//se guarda el primer numero introducido por el usuario
 		int num2;//se guarda el segundo numero introducido por el usuario
-		boolean igual;
+		boolean igual;//guardará la igualdad o no de num1 y num2
 		//Pedir dos numeros al usuario
 		System.out.println("Introduzca un número: ");//pide el primer numero
 		num1 = sc.nextInt();//escaner
 		System.out.println("Introduzca otro número: ");//pide el segundo numero
 		num2 = sc.nextInt();//escaner
 		//Comprobación si son iguales los dos numeros
-		igual = (num1==num2);
+		igual = (num1==num2);//comprueba si num1 y num2 son iguales o no
 		System.out.println(igual);//Le da el resultado al usuario
 		sc.close();//cerrar escaner
 		

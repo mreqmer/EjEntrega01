@@ -11,10 +11,10 @@ public class Ejercicio001 {
 		numeroA = sc.nextFloat();//escaner del número
 		//Conversion numero introducido por el usuario en entero  
 		int numeroAEnt = (int) numeroA; //numeroAEnt es el numeroA pero entero
-		//Redondeo del numero 
+		//Mira si la parte decimal es mayor o menor que .5 para el posterior redondeo si precisa 
 		int calculo =(numeroA - numeroAEnt >= .5) ? ++numeroAEnt  : numeroAEnt ;
 		//Devolver numero entero al usuario
-		System.out.println("Su numero redondeado es " + calculo + ".");
+		System.out.println("Su número redondeado es " + calculo + ".");
 		sc.close();
 		
 

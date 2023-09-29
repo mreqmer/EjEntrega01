@@ -13,7 +13,7 @@ public class Ejercicio008 {
 		int entradaN, entradaA; //numero de entradas de los niños y adultos (respectivamente) que introduce el usuario
 		float precioT;//aqui se registrara el precio total SIN descuentos
 		//introducir el numero de entradas por el usuario
-		System.out.println("¡Bienvenido a Aquopolis!");
+		System.out.println("¡Bienvenido a Aquopolis!");//mensaje de bienvenida
 		System.out.println("¿Cuántos adultos vienen?");//entrada de adultos
 		entradaA = sc.nextInt();//escaner
 		System.out.println("¿Cuántos niños vienen?");//entrada de niños
